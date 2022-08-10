@@ -1,0 +1,29 @@
+.btnCartCount {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 1.5rem;
+    cursor: pointer;
+    right: 1rem;
+}
+
+.btnCartCount .count {
+    position: absolute;
+    background-color: rgb(18, 219, 68);
+    top: -8px;
+    right: -9px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
